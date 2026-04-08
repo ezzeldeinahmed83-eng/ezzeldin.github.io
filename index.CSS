@@ -1,0 +1,207 @@
+body {
+    background-color: #EEE;
+}
+ul{
+    list-style: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px #a2a2a2 solid;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    padding: 30px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+}
+.landing {
+    min-height: 100vb;
+    background-image: url(../Picture/Empowering-3D-Artists.jpg);
+    background-size: cover;
+    position: relative;
+}
+.landing .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 50%);
+}
+.landing .text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 50%;
+    padding: 50px;
+    background-color: rgb(15 115 145 / 60%);
+    color: white;
+}
+.landing .text .content{
+    max-width: 500px;
+}
+.landing .text .content p {
+    font-size: 22px;
+}
+.main-heading {
+    text-align: center;
+}
+.main-heading h2 {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+caption {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+table {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+td {
+    padding: 15px;
+    background-color: #EEE;
+    border: 1px solid #ccc;
+}
+table thead td {
+    background-color: rgb(202, 60, 60) ;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgb(109, 34, 34);
+}
+.add {
+    width: 30%;
+    margin-left: 550px;
+    margin-top: 100px;
+    border: 1px solid black;
+    background-color: #a2a2a2;
+}
+.add div {
+    padding: 15px;
+}
+.add div input {
+    height: 25px;
+    width: 60%;
+}
+.add .course-name {
+    font-size: 20px;
+}
+.add .instructor {
+    font-size: 20px;
+}
+.add .credit-hours {
+    font-size: 20px;
+}
+.add .notes {
+    font-size: 20px;
+}
+.add .notes input {
+    height: 50px;
+    width: 75%;
+}
+.add .submit {
+    padding-left: 5%;
+}
+.add .submit input {
+    width: 20%;
+}
+.contact {
+
+}
+.contact-us h2 {
+    margin-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.respond {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 550px;
+    padding: 10px;
+}
+.respond div {
+    padding: 5px;
+}
+.name input {
+    width: 100%;
+    height: 50px;
+}
+.email input {
+    width: 100%;
+    height: 50px;
+}
+.phone input {
+    width: 100%;
+    height: 50px;
+}
+.message input {
+    width: 100%;
+    height: 100px;
+}
+.submit input {
+    width:25%;
+    height: 50px;
+}
+.contact ul {
+    padding: 20px;
+    margin: 1px;
+    display: flex;
+    position: relative;
+}
+.whatsapp {
+    margin-left: 580px;
+    width: 70px;
+    margin-top: 10px;
+}
+.whatsapp img {
+    width: 50px;
+}
+.instagram {
+    margin-left: 100px;
+    width: 70px;
+    margin-top: 10px;
+}
+.instagram img {
+    width: 50px;
+}
+.facebook {
+    margin-left: 100px;
+    width: 70px;
+}
+.facebook img {
+    width: 50px;
+}
