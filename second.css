@@ -67,3 +67,13 @@ table thead td {
     text-align: center;
     border: 1px solid rgb(109, 34, 34);
 }
+footer {
+    text-align: center;
+    background: #32537f;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    max-width: 93%;
+    color: white;
+}

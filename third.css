@@ -87,3 +87,13 @@ button {
 form :hover {
     color: brown;
 }
+footer {
+    text-align: center;
+    background: #32537f;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    max-width: 52%;
+    color: white;
+}
