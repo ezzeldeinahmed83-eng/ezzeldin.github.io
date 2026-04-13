@@ -35,8 +35,7 @@ header nav ul li :hover {
     color: brown;
 }
 .contact {
-    padding-left: 400px;
-    padding-right: 400px;
+    width: 100%;
     box-sizing: border-box;
     padding: 0;
 }
@@ -49,6 +48,8 @@ header nav ul li :hover {
     padding: 15px;
     margin-top: 15px;
     border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 form {
     margin: 0;

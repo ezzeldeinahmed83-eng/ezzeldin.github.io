@@ -50,17 +50,20 @@ form {
     box-sizing: border-box;
 }
 .add {
-    padding-left: 400px;
-    padding-right: 400px;
     padding: 0;
     box-sizing: border-box;
 
+}
+.container {
+    width: 100%;
 }
 .card {
     background: #5789d0;
     padding: 15px;
     margin-top: 15px;
     border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 input , textarea {
     width: 97%;
