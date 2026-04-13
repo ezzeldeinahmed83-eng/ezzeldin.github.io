@@ -35,10 +35,9 @@ header nav ul li :hover {
     color: brown;
 }
 .landing {
-    min-height: 100vh;
     background-size: cover;
-    position: relative;
-    background-image: url(home.jpg) ;
+    min-height: 100vh;
+    background-image:url(home.jpg) ;
 }
 .landing .text {
     position: absolute;

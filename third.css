@@ -50,7 +50,8 @@ form {
     box-sizing: border-box;
 }
 .add {
-    margin: 0 400px 0 400px;
+    padding-left: 400px;
+    padding-right: 400px;
     padding: 0;
     box-sizing: border-box;
 
