@@ -48,8 +48,8 @@ header nav ul li :hover {
     padding: 15px;
     margin-top: 15px;
     border-radius: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
+    max-width: 800px;
+    margin: auto;
 }
 form {
     margin: 0;
@@ -117,3 +117,4 @@ form :hover {
 .facebook a {
     text-decoration: none;
 }
+
