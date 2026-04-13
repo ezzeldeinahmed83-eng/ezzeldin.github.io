@@ -1,6 +1,13 @@
 body {
-    background-color: #EEE;
+    background-color: rgb(172, 184, 196);
     font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    text-align: center;
+    background: #32537f;
+    padding: 10px;
+    
+
 }
 ul{
     list-style: none;
@@ -14,12 +21,14 @@ ul{
 }
 header {
     background-color: steelblue;
+    border-radius: 10px;
 }
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px #a2a2a2 solid;
+    justify-content: center;
 }
 header nav ul {
     display: flex;
@@ -34,19 +43,25 @@ header nav ul li a {
 header nav ul li :hover {
     color: brown;
 }
-.landing {
-    background-size: cover;
-    min-height: 100vh;
-    background-image:url(home.jpg) ;
+main {
+    text-align: center;
 }
-.landing .text {
-    position: absolute;
-    top: 50%;
-    width: 50%;
-    padding: 50px;
-    background-color: rgb(15 115 145 / 60%);
+.home {
+    background: #32537f;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
     color: white;
+    max-width: 900px;
 }
-.landing .text .content p {
-    font-size: 22px;
+footer {
+        text-align: center;
+    background: #32537f;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    max-width: 900px;
+    color: white;
 }

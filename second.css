@@ -14,12 +14,14 @@ ul{
 }
 header {
     background-color: steelblue;
+    border-radius: 10px;
 }
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px #a2a2a2 solid;
+    justify-content: center;
 }
 header nav ul {
     display: flex;
