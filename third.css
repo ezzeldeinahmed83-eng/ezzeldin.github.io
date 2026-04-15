@@ -56,9 +56,6 @@ form {
     box-sizing: border-box;
 
 }
-.container {
-    width: 100%;
-}
 .card {
     background: #5789d0;
     padding: 15px;
