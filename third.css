@@ -42,26 +42,13 @@ header nav ul li :hover {
 }
 h2 {
     text-align: center;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-form {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.add {
-    padding: 0;
-    box-sizing: border-box;
-
 }
 .card {
     background: #5789d0;
     padding: 15px;
     margin-top: 15px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 60%;
     margin: auto;
 }
 input , textarea {
@@ -69,7 +56,7 @@ input , textarea {
     padding: 10px;
     margin-top: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 button {
@@ -79,7 +66,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 form :hover {
     color: brown;
@@ -91,6 +78,6 @@ footer {
     margin: auto;
     margin-top: 10px;
     border-radius: 5px;
-    max-width: 52%;
+    max-width: 61%;
     color: white;
 }
