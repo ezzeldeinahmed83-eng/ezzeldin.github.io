@@ -1,7 +1,7 @@
 body {
     background-color: rgb(172, 184, 196);
     font-family: Arial, Helvetica, sans-serif;
-    max-height: max-content;
+    max-height: 50vh;
 }
 .header {
     text-align: center;
