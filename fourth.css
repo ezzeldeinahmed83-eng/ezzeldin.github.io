@@ -1,6 +1,10 @@
 body {
     background-color: rgb(172, 184, 196);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 ul{
     list-style: none;
@@ -18,8 +22,8 @@ header {
 }
 header .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: auto;
     border-bottom: 1px #a2a2a2 solid;
     justify-content: center;
 }
@@ -112,9 +116,8 @@ footer {
     text-align: center;
     background: #32537f;
     padding: 5px;
-    margin: auto;
-    margin-top: 10px;
+    margin-top: auto;
     border-radius: 5px;
-    max-width: 65%;
+    width: 100%;
     color: white;
 }
